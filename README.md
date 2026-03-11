@@ -20,6 +20,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
+
       prefix: "docker"
     open-pull-requests-limit: 5
     labels:
