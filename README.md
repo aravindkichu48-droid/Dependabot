@@ -1,4 +1,4 @@
-# github/dependabot.yml:
+#github/dependabot.yml:
 Enable two factor authenticationUse 2fA 
 version: 2
 updates:
