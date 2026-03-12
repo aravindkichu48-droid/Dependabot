@@ -25,9 +25,10 @@ openssl aes-256-cbc -salt -in myfile.txt -out myfile.txt.enc
 # Decrypt
 openssl aes-256-cbc -d -in myfile.txt.enc -out myfile.txt
     commit-message:
-
+Track all DAG / RAG task execution logs
       prefix: "docker"
     open-pull-requests-limit: 5
     labels:
       - "docker"
       - "lion-team"
+airflow dags pause <dag_id>
