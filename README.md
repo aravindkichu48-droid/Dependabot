@@ -19,7 +19,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-# Encrypt
+# Encryption
 openssl aes-256-cbc -salt -in myfile.txt -out myfile.txt.enc
 
 # Decrypt
