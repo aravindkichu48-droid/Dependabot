@@ -19,6 +19,11 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+# Encrypt
+openssl aes-256-cbc -salt -in myfile.txt -out myfile.txt.enc
+
+# Decrypt
+openssl aes-256-cbc -d -in myfile.txt.enc -out myfile.txt
     commit-message:
 
       prefix: "docker"
